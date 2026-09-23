@@ -1,0 +1,12 @@
+{
+  "name": "ai-attendance-system",
+  "version": "1.0.0",
+  "description": "Full-stack AI Student Attendance System with Teacher Login and Weekly Timetable",
+  "scripts": {
+    "dev:server": "node --watch server/server.js",
+    "dev:client": "npm --prefix client run dev",
+    "dev": "node start-dev.js",
+    "build": "npm --prefix client run build",
+    "start": "node server/server.js"
+  }
+}
